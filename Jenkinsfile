@@ -6,6 +6,6 @@ node('built-in')
 	}
     stage('Continuous Build_Loans') 
 	{
-    sh label: '', script: 'mvn package'
-	}
+    sh 'mvn package'
+}
 }
